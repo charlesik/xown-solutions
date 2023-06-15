@@ -25,16 +25,17 @@ body{
     justify-content: space-between;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-    border-bottom:1px solid rgb(247, 244, 244) ;
+    border-bottom:1px solid rgb(229, 229, 248) ;
     height: 50px;
     color: rgb(78, 77, 77);
 }
 .title{
     width:20%;
     border-top-left-radius:10px ;
-    border-right: 1px solid rgb(247, 244, 244);
+    border-right: 1px solid rgb(229, 229, 248);
     font-size: 20px;
-    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
 }
 .bar{
     display: flex;
@@ -47,7 +48,7 @@ body{
     display: flex;
 }
 .mainsearch{
-    background-color: rgb(247, 244, 244);
+    background-color: rgb(229, 229, 248);
     border: none;
     height: 30px;
     width: 600px;
@@ -56,12 +57,12 @@ body{
 }
 .sidebar{
     width: 20%;
-    border-right: 1px solid rgb(247, 244, 244);
+    border-right: 1px solid rgb(229, 229, 248);
 }
 .nav{
     padding-left: 20px;
     padding-top: 30px;
-    border-bottom: 1px solid rgb(247, 244, 244);
+    border-bottom: 1px solid rgb(229, 229, 248);
 }
 .menulinks{
     text-decoration: none; 
@@ -73,4 +74,126 @@ body{
 .listItem{
     list-style:none;
     margin-bottom: 20px;
+}
+.progress{
+    padding-left: 20px;
+    padding-top: 30px;
+    color:rgb(117, 109, 109);
+
+}
+progress {
+    border-radius: 7px; 
+    height: 5px;
+    
+  }
+progress::-webkit-progress-bar {
+    background-color: rgb(229, 229, 248);
+    border-radius: 7px;
+  }
+progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 7px;
+  }
+#feed{
+    display: flex;
+}
+.topic{
+    list-style: none;
+    background-color:rgb(229, 229, 248) ;
+    height: 28px;
+    /* width: 150px; */
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:rgb(117, 109, 109);
+}
+.topic:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+   
+}
+.feedcontent{
+    width: 80%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.second{
+    margin-top: 20px;
+}
+.articles{
+    width: 60%;
+}
+.inclusive{
+    display: flex;
+    background-color: rgb(229, 229, 248);
+    width: 60%;
+    height: 200px;
+    border-radius: 5px;
+}
+.inclusive1{
+    display: flex;
+    background-image: linear-gradient(to right,rgb(53, 53, 250),rgb(22, 22, 160),rgb(8, 8, 112));
+    width: 60%;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+}
+.second{
+    color:rgb(117, 109, 109);
+    display: flex;
+    justify-content: space-between;
+}
+.trends{
+    background-color: rgb(229, 229, 248);
+    width: 30%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.trends1{
+    background-color: rgb(53, 53, 250);
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.themes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.theme{
+    text-align: center;
+    width: 120px;
+    height: 95px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 248);
+    padding-top: 20px;
+    margin: 5px;
+
+}
+.third{
+    color:rgb(117, 109, 109);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.teachers{
+    width: 35%;
+    padding-right: 50px;
+}
+.teacher{
+    display: flex;
+    margin-bottom: 5px;
 }
